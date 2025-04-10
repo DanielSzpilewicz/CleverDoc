@@ -41,7 +41,7 @@ def set_background(image_file):
         }}
         .btn {{
             background-color: #0d6efd;
-            color: white;
+            color: black;
             padding: 12px 24px;
             font-size: 1.1em;
             border: none;
@@ -75,26 +75,19 @@ st.markdown("""<div id="start"></div>""", unsafe_allow_html=True)
 st.markdown("## Upload Your Contract")
 
 # Streamlit Page Configuration
-st.set_page_config(
-    page_title="DocAgent AI NEW",
-    page_icon="static/logo.png",
-    layout="wide",
-    initial_sidebar_state="auto",
-    menu_items={
-        "Get help": "https://streamlit.io/",
-        "Report a bug": "https://streamlit.io/",
-        "About": """
-            ## Streamly Streamlit Assistant
-        """
-    }
-)
-
-# Streamlit Title
-# st.title("DocAgent AI")
-st.write(
-    "Upload a document below and ask a question about it – GPT will answer! "
-    "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-)
+# st.set_page_config(
+#     page_title="DocAgent AI NEW",
+#     page_icon="static/logo.png",
+#     layout="wide",
+#     initial_sidebar_state="auto",
+#     menu_items={
+#         "Get help": "https://streamlit.io/",
+#         "Report a bug": "https://streamlit.io/",
+#         "About": """
+#             ## Streamly Streamlit Assistant
+#         """
+#     }
+# )
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
