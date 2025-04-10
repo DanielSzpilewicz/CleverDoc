@@ -1,8 +1,23 @@
 import streamlit as st
 from openai import OpenAI
 
-# Show title and description.
-st.title("📄 Document question answering")
+# Streamlit Page Configuration
+st.set_page_config(
+    page_title="Streamly - An Intelligent Streamlit Assistant",
+    page_icon="images/logo.png",
+    layout="wide",
+    initial_sidebar_state="auto",
+    menu_items={
+        "Get help": "https://streamlit.io/",
+        "Report a bug": "https://streamlit.io/",
+        "About": """
+            ## Streamly Streamlit Assistant
+        """
+    }
+)
+
+# Streamlit Title
+st.title("DocAgent AI")
 st.write(
     "Upload a document below and ask a question about it – GPT will answer! "
     "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
