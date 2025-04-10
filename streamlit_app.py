@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # Streamlit Page Configuration
 st.set_page_config(
-    page_title="DocAgent AI",
+    page_title="DocAgent AI NEW",
     page_icon="images/logo.png",
     layout="wide",
     initial_sidebar_state="auto",
