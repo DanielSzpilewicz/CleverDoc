@@ -55,7 +55,7 @@ def set_background(image_file):
     )
 
 # Add background image
-set_background("static/background_v1.jpg")  # Replace with your own image
+set_background("static/background.jpg")  # Replace with your own image
 
 # HTML Hero Section
 st.markdown(
