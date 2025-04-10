@@ -28,7 +28,7 @@ def set_background(image_file):
             z-index: -1;
         }}
         .hero {{
-            color: white;
+            color: black;
             text-align: center;
             padding: 10% 5%;
         }}
@@ -41,7 +41,7 @@ def set_background(image_file):
         }}
         .btn {{
             background-color: #0d6efd;
-            color: black;
+            color: white;
             padding: 12px 24px;
             font-size: 1.1em;
             border: none;
